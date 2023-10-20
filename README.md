@@ -45,13 +45,14 @@ Assigning users to user groups ensures consistent access permissions. User group
 
 <h2>Here are some common issues that can be handled with Active Directory</h2>
 
-- DNS Configuration Problems: Active Directory heavily relies on proper DNS configuration for its functionality. Misconfigurations can lead to issues with domain name resolution, which can affect communication between devices on the network.
+DNS Configuration Problems: Active Directory relies on proper DNS configuration. Misconfigurations can lead to issues with domain name resolution, affecting communication between devices on the network. By correcting the DNS settings in Active Directory, these issues can be resolved.
 
-- Active Directory Replication Problems: This occurs when changes made on one domain controller (like adding a new user) don’t get replicated to other domain controllers. This can lead to inconsistencies in the Active Directory database across different servers.
+Active Directory Replication Problems: Changes made on one domain controller (like adding a new user) may not get replicated to other domain controllers, leading to inconsistencies. Active Directory provides tools to troubleshoot and fix replication errors.
 
-- Security Issues: These can arise from legacy management of the enterprise Microsoft platform going back a decade or more. For example, thinking an Active Directory domain is the security boundary can impact the design of security controls and may introduce vulnerabilities.
+Security Issues: Active Directory is key in managing credentials and permissions in the IT infrastructure. Frequent invalid user accesses, account lockouts, permission errors, etc., can be tracked and fixed using Active Directory.
 
-- Issues with Group Policies: Sometimes, Group Policies may not apply correctly or may cause unexpected behavior on client computers.
+Group Policy Issues: Sometimes, Group Policies may not apply correctly or may cause unexpected behavior on client computers. Active Directory allows administrators to troubleshoot and modify these policies as needed.
 
-- Active Directory Admins Logging on to Untrusted Systems: If admins log onto untrusted systems (non-DCs, regular workstations, servers, etc.), malicious code could potentially compromise their credentials.
+User Account Lockouts: Frequent account lockouts can be a significant issue in large organizations. Active Directory provides tools to identify the source of the lockouts and resolve them.
 
+Logon Failures: Logon failures can occur due to various reasons like incorrect credentials, account lockouts, etc. Active Directory helps in diagnosing the cause of these failures and fixing them.
