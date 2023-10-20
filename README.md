@@ -45,14 +45,14 @@ Assigning users to user groups ensures consistent access permissions. User group
 
 <h2>Here are some common issues that can be handled with Active Directory</h2>
 
-DNS Configuration Problems: Active Directory relies on proper DNS configuration. Misconfigurations can lead to issues with domain name resolution, affecting communication between devices on the network. By correcting the DNS settings in Active Directory, these issues can be resolved.
+- DNS Configuration Problems: Active Directory relies on proper DNS configuration. Misconfigurations can lead to issues with domain name resolution, affecting communication between devices on the network. By correcting the DNS settings in Active Directory, these issues can be resolved.
 
-Active Directory Replication Problems: Changes made on one domain controller (like adding a new user) may not get replicated to other domain controllers, leading to inconsistencies. Active Directory provides tools to troubleshoot and fix replication errors.
+- Active Directory Replication Problems: Changes made on one domain controller (like adding a new user) may not get replicated to other domain controllers, leading to inconsistencies. Active Directory provides tools to troubleshoot and fix replication errors.
 
-Security Issues: Active Directory is key in managing credentials and permissions in the IT infrastructure. Frequent invalid user accesses, account lockouts, permission errors, etc., can be tracked and fixed using Active Directory.
+- Security Issues: Active Directory is key in managing credentials and permissions in the IT infrastructure. Frequent invalid user accesses, account lockouts, permission errors, etc., can be tracked and fixed using Active Directory.
 
-Group Policy Issues: Sometimes, Group Policies may not apply correctly or may cause unexpected behavior on client computers. Active Directory allows administrators to troubleshoot and modify these policies as needed.
+- Group Policy Issues: Sometimes, Group Policies may not apply correctly or may cause unexpected behavior on client computers. Active Directory allows administrators to troubleshoot and modify these policies as needed.
 
-User Account Lockouts: Frequent account lockouts can be a significant issue in large organizations. Active Directory provides tools to identify the source of the lockouts and resolve them.
+- User Account Lockouts: Frequent account lockouts can be a significant issue in large organizations. Active Directory provides tools to identify the source of the lockouts and resolve them.
 
-Logon Failures: Logon failures can occur due to various reasons like incorrect credentials, account lockouts, etc. Active Directory helps in diagnosing the cause of these failures and fixing them.
+- Logon Failures: Logon failures can occur due to various reasons like incorrect credentials, account lockouts, etc. Active Directory helps in diagnosing the cause of these failures and fixing them.
